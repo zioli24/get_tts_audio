@@ -1,3 +1,8 @@
 # get_tts_audio
 
-## download audios from youtube, soundgasm, literotica for tts training 
+## get audios for tts training
+
+- [x] youtube
+- [x] player FM
+- [x] literotic
+- [x] soundgasm
