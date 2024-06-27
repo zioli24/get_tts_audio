@@ -19,5 +19,8 @@ def get_youtube(url, save_path):
 
 
 if __name__ == "__main__":
-    get_youtube('https://www.youtube.com/watch?v=vN7DFZazSik&ab_channel=UFC', './')
-    #get_youtube('https://www.youtube.com/playlist?list=PLFKG1h4xM85TFcvzMG7elWVaV-JUMs21R', './')
+    with open('/nas_dev/zio/text/4.txt') as f:
+        for line in f:
+            url = line.strip()
+            save_path = '/nas_dev/zio/listen_to_my_voice'
+            get_youtube(url, save_path)
